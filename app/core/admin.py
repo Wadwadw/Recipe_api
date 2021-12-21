@@ -25,5 +25,7 @@ class UserAdmin(BaseUserAdmin):
         }),
     )
 
+
 admin.site.register(User, UserAdmin)
 admin.site.register(Tag)
+admin.site.register(Ingredient)
